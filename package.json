@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/taptime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tap filesystem time paths across POSIX and Windows conventions.",
+  "bin": {
+    "taptime": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/taptime.git"
+  },
+  "homepage": "https://theworker02.github.io/taptime/",
+  "keywords": [
+    "tap",
+    "time",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
